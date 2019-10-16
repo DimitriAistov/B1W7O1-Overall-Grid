@@ -1,0 +1,47 @@
+body{
+	font-family: 'Lato', sans-serif;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns:45px 300px 400px 400px 400px 300px; 
+	grid-template-rows: 5px 100px 500px 90px 200px;
+}
+
+#logo{
+	grid-row: 2;
+	grid-column: 1;
+}
+
+banner {
+	grid-row: 3;
+}
+
+#banner2{
+	grid-row: 3;
+	grid-column: 2;
+	margin-top: 50px;
+}
+
+#fade{
+	grid-row: 4;
+	grid-column: 2/3;
+}
+
+#nivo{
+	margin: 0 auto;
+	grid-row: 4;
+	grid-column: 3/4;
+}
+
+#bonus{
+	grid-row: 4;
+	grid-column: 4/5;
+}
+
+footer{
+	grid-row: 6;
+	grid-column: 1/4;
+}
