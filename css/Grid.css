@@ -19,7 +19,7 @@ banner {
 	grid-row: 3;
 }
 
-#banner2{
+.banner2{
 	grid-row: 3;
 	grid-column: 2;
 	margin-top: 50px;
@@ -44,4 +44,133 @@ banner {
 footer{
 	grid-row: 6;
 	grid-column: 1/4;
+}
+
+.a{
+	grid-column: 4;
+	word-spacing: 30px;
+	margin-top: 40px;
+	margin-left: -250px;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.BannerText{
+	color: #ffffff;
+	width: 25em;
+	grid-column: 4;
+	grid-row: 3;
+	margin-top: 100px;
+}
+
+h2{
+	color:#ffffff;
+	grid-row: 3;
+	grid-column: 4;
+	margin-top: 50px;
+	font-size: 26px;
+	line-height: 30px;
+}
+
+.FadeText{
+	grid-row: 4;
+	grid-column: 2/3;
+	margin-top: 160px;
+}
+
+.NivoText{	
+	grid-row: 4;
+	grid-column: 4;
+	margin-top: 160px;
+	margin-left: -350px;
+}
+
+.BonusText{
+	grid-row: 4;
+	grid-column: 4/5;
+	margin-top: 160px;
+}
+
+.FooterText{
+	color: #ffffff;
+	grid-row: 6;
+	grid-column: 2;
+}
+
+.Fiat{
+	grid-row: 4;
+	grid-column: 2;
+
+	border-width: 10px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+.dealership{
+	grid-row: 3;
+	grid-column: 3;
+	margin-left: -125px;	
+	margin-top: 25px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+h4{
+	grid-row: 4;
+	grid-column: 3;
+	margin-left: 25px;	
+	margin-top: 25px;
+}
+
+
+.Bob{
+	grid-row: 4;
+	grid-column: 2;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+.Tele{
+	grid-row: 4;
+	grid-column: 3;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+.cookie{
+	grid-row: 4;
+	grid-column: 4;
+	margin-left: -160px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+.elmo{
+	grid-row: 4;
+	grid-column: 4;
+	margin-left: 90px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+.sesam{
+	grid-row: 3;
+	grid-column: 3;
+	margin-left: 20px;	
+	margin-top: 40px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: black;
 }
